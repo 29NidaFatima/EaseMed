@@ -1,33 +1,27 @@
-import React from 'react'
-import {assets} from '../assets/assets'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import { assets } from '../assets/assets';
+import { NavLink } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <div>
-      <img src={assets.logo} alt="" />
+      <img src={assets.logo} alt="Logo" />
       <ul>
-        <NavLink>
-            <li>HOME</li>
-            <hr/>
-        </NavLink>
-        <NavLink>
-            <li>ALL DOCTORS</li>
-            <hr/>
-        </NavLink>
-        <NavLink>
-            <li>ABOUT</li>
-            <hr/>
-        </NavLink>
-        <NavLink>
-            <li>CONTACT</li>
-            <hr/>
-        </NavLink>
+        <li>
+          <NavLink to="/">HOME</NavLink>
+          <hr />
+        </li>
+        <li>
+          <NavLink to="/doctors">ALL DOCTORS</NavLink>
+          <hr />
+        </li>
+        <li>
+          <NavLink to="/about">ABOUT</NavLink>
+          <hr />
+        </li>
       </ul>
-      <div>
-        <button>Create account</button>
-      </div>
     </div>
-  )
+  );
 }
 
 export default Navbar;
