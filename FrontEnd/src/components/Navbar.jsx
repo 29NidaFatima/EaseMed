@@ -8,15 +8,15 @@ const Navbar = () => {
       <img src={assets.logo} alt="Logo" />
       <ul>
         <li>
-          <NavLink to="/">HOME</NavLink>
+          <NavLink >HOME</NavLink>
           <hr />
         </li>
         <li>
-          <NavLink to="/doctors">ALL DOCTORS</NavLink>
+          <NavLink >ALL DOCTORS</NavLink>
           <hr />
         </li>
         <li>
-          <NavLink to="/about">ABOUT</NavLink>
+          <NavLink >ABOUT</NavLink>
           <hr />
         </li>
       </ul>
