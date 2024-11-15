@@ -32,7 +32,7 @@ const Doctors = () => {
           <p>Neurologist</p>
           <p>Gastroenterologist</p>
         </div>
-        <div>
+        <div className='w-full grid grid-cols-auto gap-4 gap-y-6'>
           {filterDoc.map((item, index) => (
             <div
               onClick={() => navigate(`/appointment/${item._id}`)}
