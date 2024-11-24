@@ -26,7 +26,7 @@ const Login = () => {
               value={name}
               placeholder="Your full name"
               required
-           
+
             />
           </div>
         )}
@@ -38,7 +38,7 @@ const Login = () => {
             value={email}
             placeholder="Your email"
             required
-           className='border border-zinc-300 rounded w-full p-2 mt-1'
+            className='border border-zinc-300 rounded w-full p-2 mt-1'
           />
         </div>
         <div className='w-full' >
@@ -49,7 +49,7 @@ const Login = () => {
             value={password}
             placeholder="Your password"
             required
-           className='border border-zinc-300 rounded w-full p-2 mt-1'
+            className='border border-zinc-300 rounded w-full p-2 mt-1'
           />
         </div>
         <button
