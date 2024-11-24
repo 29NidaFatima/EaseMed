@@ -49,12 +49,15 @@ const Contact = () => {
           <p className="text-gray-500 mt-2">
             Interested in joining our team? Explore our job openings and learn more about how you can make an impact.
           </p>
-          <button
+        
+         <button
             className="mt-4 px-6 py-2 border border-black text-black rounded-lg hover:bg-black hover:text-white transition duration-300"
             aria-label="Explore job opportunities at EaseMed"
           >
             Explore Jobs
+      
           </button>
+     
         </div>
       </div>
     </div>
