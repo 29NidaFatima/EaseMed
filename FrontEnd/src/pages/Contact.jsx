@@ -27,9 +27,8 @@ const Contact = () => {
         )}
       </div>
 
-      {/* Contact Details */}
       <div className="w-full flex flex-col items-start gap-8 md:max-w-3xl">
-        {/* Office Details */}
+    
         <div>
           <h2 className="font-semibold text-lg text-gray-600">OUR OFFICE</h2>
           <address className="text-gray-500 not-italic mt-2">
