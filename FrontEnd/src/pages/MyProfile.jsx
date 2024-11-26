@@ -6,12 +6,12 @@ const MyProfile = () => {
     name: "NIDA FATIMA",
     image: assets?.profile_pic || '',
     email: '2529nida17@gmail.com',
-    phone: '9026211687',
+    phone: '90262XXXX',
     address: {
       line1: "Street No.31 TUGHLAKABAD EXTENSION",
       line2: "NEW DELHI",
     },
-    gender: 'Male',
+    gender: 'Female',
     dob: '2000-01-20',
   });
 
@@ -123,11 +123,10 @@ const MyProfile = () => {
       </div>
       <div className="flex justify-center">
         <button
-          className={`px-6 py-2 rounded font-semibold ${
-            isEdit
+          className={`px-6 py-2 rounded font-semibold ${isEdit
               ? "bg-blue-500 text-white hover:bg-blue-600"
               : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-          }`}
+            }`}
           onClick={() => setIsEdit(!isEdit)}
         >
           {isEdit ? "Save Information" : "Edit"}

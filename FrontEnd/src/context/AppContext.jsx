@@ -7,7 +7,7 @@ export const AppContext = createContext();
 
 const AppContextProvider = (props) => {
 
-    const currencySymbol = '$'
+    const currencySymbol = 'Rs. '
     const backendUrl = "http://localhost:4000"
 
     const [doctors, setDoctors] = useState([])
