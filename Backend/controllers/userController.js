@@ -2,6 +2,8 @@ import validator from 'validator'
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
 import userModel from '../models/userModel.js'
+import doctorModel from '../models/doctorModel.js'
+import appointmentModel from '../models/appointmentModel.js'
 import path from 'path';
 // API to register user
 const registerUser = async (req, res) => {
